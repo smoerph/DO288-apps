@@ -12,7 +12,7 @@ config_s2i
 
 
 cp -Rf /tmp/src/*.html ./
-DATE=`date "+Y-m-d"`
+DATE=`date "+Y%-%m-%d"`
 echo "Erstellt am " $DATE > ./info.html
 echo "\nzweite zeile" >> ./info.html
 
